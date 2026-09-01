@@ -1,0 +1,19 @@
+# Sample weights file. Copy to your project root as .mcp-freshness.toml
+# or pass it with --weights. Every key is optional.
+
+[weights]
+reachable        = 45
+freshness        = 25
+tools            = 15
+latency          = 15
+archived_penalty = 30
+
+fresh_days = 30
+stale_days = 365
+
+fast_ms = 500
+slow_ms = 5000
+
+healthy_at = 80
+aging_at   = 60
+stale_at   = 40

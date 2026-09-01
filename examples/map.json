@@ -1,0 +1,5 @@
+{
+  "legacy-crm": "acme/legacy-crm-mcp",
+  "scraper": "https://github.com/someone/scraper-mcp",
+  "internal-tools": "acme/internal-tools-mcp"
+}

@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "filesystem-demo": {
+      "command": "python",
+      "args": [
+        "tests/fixtures/healthy_server.py"
+      ]
+    },
+    "no-tools-demo": {
+      "command": "python",
+      "args": [
+        "tests/fixtures/zero_tools_server.py"
+      ]
+    },
+    "noisy-demo": {
+      "command": "python",
+      "args": [
+        "tests/fixtures/noisy_server.py"
+      ]
+    },
+    "crashed-demo": {
+      "command": "python",
+      "args": [
+        "tests/fixtures/crash_server.py"
+      ]
+    },
+    "hung-demo": {
+      "command": "python",
+      "args": [
+        "tests/fixtures/slow_server.py"
+      ]
+    }
+  }
+}
