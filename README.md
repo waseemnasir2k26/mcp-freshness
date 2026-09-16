@@ -2,6 +2,10 @@
 
 Reads your MCP config, actually starts every server, and scores each one 0-100 for **liveness** and **maintenance freshness** — so you find out a server is dead from a table, not from an agent failing mid-task.
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ```
 $ mcp-freshness
 
