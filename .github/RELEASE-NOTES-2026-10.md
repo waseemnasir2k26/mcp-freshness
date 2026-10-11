@@ -1,0 +1,4 @@
+- mcp-freshness is a public Python 3.11+ CLI with zero runtime dependencies that reads your MCP config, starts every server and scores each 0-100 for liveness and maintenance freshness (MIT, `pyproject.toml` v0.1.0).
+- Current state: auto-discovers `.mcp.json`, `.vscode/mcp.json`, `~/.claude.json` and `claude_desktop_config.json`; supports `--json`, `--explain`, `-c/--config` and a shields.io endpoint badge; pytest suite makes no network calls. Last functional commits 2026-09-01.
+- Reviewed October 2026: all README links checked and resolve (the template badge URL with OWNER/REPO is intentional); a Work with SkynetLabs section was added. No source, tests or packaging metadata changed.
+- Known gaps: CI workflow is still parked at `.ci-pending/ci.yml` (deferred until the push token has workflow scope) so tests do not run on push; not on PyPI, install is via `pip install git+https://...`.
